@@ -2,3 +2,21 @@
     width:150px;
     height:150px;
 }
+
+
+#searchbar{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height:380px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4%;
+}
+#one img{
+    border-radius: 25%;
+}

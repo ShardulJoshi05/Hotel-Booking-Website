@@ -1,6 +1,8 @@
 html,body{
     height:100%;
     width:100%;
+    
+    background-color: #e0e0e0;
 }
 #lgo{
    height:60px;
@@ -10,6 +12,9 @@ html,body{
 .foot-img{
     width:22px;
     height:20px;
+}
+header,footer{
+    background-color: rosybrown;
 }
 
 
