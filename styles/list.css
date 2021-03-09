@@ -1,82 +1,38 @@
-ul{
-    list-style-type: none;
-}
-.li-img{
-    width:250px;
-    height:200px;
-}
-html{
-    font-family: 'Ubuntu','sans-serif';
-}
- body{
-    margin:0px;
-} 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position:fixed;
-    top:0;
-    width: 100%;
-    
-}
-#list-linka{
-    color: black;
-    text-decoration: none;
-}
-.list-linkb{
-    color: black;
-    text-decoration: none;
-}
-footer{
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    bottom:0;
-    position: fixed;
-    width: 100%;
-    border-top: 2%;
-}
-#li-link{
-    margin:1%;
-    color: black;
-    text-decoration: none;
-}
-footer>#li-foot{
-    align-self: flex-end;
-    font-size: 10px;
-}
-#li-footlink{
-    color: black;
-    text-decoration: none;
-}
-#mapview{
-    display:none;
-}
-#list1{
-    margin: 2% 4%;
-    background-color: rgb(132, 136, 139);
+#card1, #card2, #card3{
+    margin: 3% 50px;
+    /* background-color:  rgb(132,136,139); */
+    background-color: lightgrey ;
     width: 40%;
-}
-#ele1{
-    font-weight:bold;
-    color:black;
+    display: inline-block;
+    }
+    
+    
+    #list{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding-left: 0;
+    }
+    
+    li{
+    display: inline;
+    padding: 20px;
+    }
+    
+    .li{
+    color: black;
+    font-weight: bold;
+    }
+    
+    #map-view{
+    display: none;
+    }
+    
+    .container {
     display: flex;
-    align-content:center;
-    justify-content: space-between;
-    margin-left: 40%;
-    margin-right: 45%;
-    padding-top: 4em;
-}
-#ele2{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 4em;
-}
-
-
-
-
-
+    flex-direction: row;
+    }
+    
+    .right{
+    padding: 0.5em 1em 1em 1em;
+    }

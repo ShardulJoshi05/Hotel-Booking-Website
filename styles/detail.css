@@ -1,49 +1,53 @@
-#body-img{
-    width:500px;
-    height:500px;
-}
-html{
-    font-family: 'Ubuntu','sans-serif';
-}
-body{
-    margin: 0px;
-}
-#body-img{
-    margin:6em 4% 0 4%;
-}
-form{
-    margin:0 4% 1% 4%;
-}
-#description{
-    margin:1% 4% 5em 4%;
-}
-header{
+#div1{
+    /* height: 100%; */
+    /* margin: 2% 4% 0; */
+    flex-basis: 70%;
+    border: 1px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    position: fixed;
-    width: 100%;
-   
 }
-footer{
-    height:60px;
+
+#div2{
+    /* height: 100%; */
+    border: 1px solid black;
+    border-left: none;
+    /* margin: 0 4% 1%; */
+    flex-basis: 30%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    bottom:0;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-footer>#foot-det{
-    align-self: flex-end;
-    font-size: 10px;
+
+#detailscontainer{
+    margin: 2%;
+    width: 96%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
 }
-#foot-detlink{
-    color:black;
-    text-decoration: none;
+
+.innercontainer{
+    display: flex;
+    justify-content: space-around;
 }
-#det-link{
-    margin-right: 1%;
-    color: black;
-    text-decoration: none;
+
+#adult, #name, #fromDate, #toDate, #price{
+    text-align: left;
+    flex-basis: 60%;
+    
+
+}
+
+.bookNow{
+    padding: 2%;
+}
+
+.text{
+    font-family: simple;
+}
+
+#div3{
+    margin: 1% 4% 2%;
 }
