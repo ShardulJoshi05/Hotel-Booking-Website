@@ -7,6 +7,7 @@
     <title>List</title>
     <link rel="stylesheet" href="styles/list.css">
     <link rel="stylesheet" href="styles/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -17,21 +18,18 @@
             <a href="index.html">
             <img src="assests/images/logo.png" id="lgo" alt="logo" width="200" height="150">
             </a>
-            <a href="login.html">Login</a>
+            <a id="li-link" href="login.html">Login</a>
         </header>
         <!--Content Div-->
         <main>
-            <section>
-            <ul>
-                <li><a href="#list">List View</a></li>
-                <li><a href="#map">Map View</a></li>
+            <ul id="ele1">
+                <li><a class="list-linkb" href="#list">List View</a></li>
+                <li><a class="list-linkb"href="#map">Map View</a></li>
 
             </ul>
-            </section>
-
-            <section>
+            <div id="ele2">
                 <div id="list1">
-                <a href="detail.html">
+                <a id="list-linka"href="detail.html">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="li-img">
                     <h3>Radisson Blu Hotel</h3>
                     <p>5 star</p>
@@ -39,34 +37,35 @@
                 </a>
                 </div>
 
-                <div id="list2">
+                <div id="list1">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" class="li-img">
                     <h3>The Lalit New Delhi</h3>
                     <p>4.5 star</p>
                     <p>New Delhi</p>
                 </div>
 
-                <div id="list3">
+                <div id="list1">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" class="li-img">
                     <h3>Taj Palace</h3>
                     <p>4.0 star</p>
                     <p>New Delhi</p>
                 </div>
-            </div>
-            
-            <section>
+                <section id="mapview">
                 <img id ="map"src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
                 <p>MAP VIEW</p>
-            </section>
+                </section>
+            </div>
         </main>
         <!--Footer Div-->
         <footer>
             <section>
-                <a href="contact.html">Contact Us</a>
+                <a id="li-footlink" href="contact.html">Contact Us</a>
             </section>
+            
+            <section id="li-foot">&#169; 2020 ROOM SEARCH PVT. LTD</section> 
 
             <section>
-                <a href="https://www.facebook.com" target="_blank">
+                <a  href="https://www.facebook.com" target="_blank">
                     <img src="assests/images/facebook.png" width="22" height="20">
                 </a>
                 <a href="https://www.instagram.com" target="_blank">
@@ -77,7 +76,7 @@
                 </a>
             </section>
 
-            <section>&#169; 2020 ROOM SEARCH PVT. LTD</section> 
+            
         </footer>
     </div>
 </body>
