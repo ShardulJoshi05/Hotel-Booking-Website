@@ -16,10 +16,17 @@ body{
     margin:2%;
 }
 #pay3{
-    margin:2% 2% 4em 2%;
+    margin:2%;
     border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
+}
+main{
+    margin-bottom: 6em;
+}
+#pay-link{
+    color:black;
+    text-decoration: none;
 }
 html{
     font-family: 'Ubuntu','sans-serif';
